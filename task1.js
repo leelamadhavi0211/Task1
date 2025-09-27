@@ -1,3 +1,4 @@
-simpleFunc(){
-document.write(`This is written using "document.write" `);
+function simpleFunc(){
+document.getElementById('btn').innerHTML(`This is written using simple DOM `);
 }
+simpleFunc();

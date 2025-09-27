@@ -1,15 +1,17 @@
 body{
+  display: flex;
   background-color:#f4f4f4;
   align-items: center;
 }
 div{
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 140px;
   color:blue;
 }
 p{
   font-weight:bold;
-  font-family:Arial,san-serif;
+  font-family:Arial,sans-serif;
 }
-btn{
-  color:yellow:
+button{
+  background-color:yellow;
+  cursor:pointer;
 }

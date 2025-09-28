@@ -1,4 +1,3 @@
 function simpleFunc(){
-document.getElementById('btn').innerHTML(`This is written using simple DOM `);
+    alert("Hello,World")
 }
-simpleFunc();

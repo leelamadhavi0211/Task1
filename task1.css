@@ -1,17 +1,57 @@
+/*
 body{
   display: flex;
+  flex-direction: column;
   background-color:#f4f4f4;
   align-items: center;
 }
 div{
-  width: 140px;
-  color:blue;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between p and button 
+  height: 170px;
+  background-color:lightblue;
 }
 p{
+  font-size: large;
   font-weight:bold;
   font-family:Arial,sans-serif;
 }
 button{
-  background-color:yellow;
+  background-color:orange;
   cursor:pointer;
+}
+*/
+body {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+div {
+    width: 500px;  /* slightly bigger box */
+    height: 200px; /* make it a square */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* space between div and button */
+    font-weight: bold;
+}
+h1{
+  font-style: oblique;
+  text-decoration: underline;
+}
+a{
+  color:black;
+  font-size:large;
+}
+button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: 1px solid black;
+    cursor: pointer;
 }
